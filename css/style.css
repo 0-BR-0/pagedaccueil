@@ -385,7 +385,7 @@ footer {
 .nav-footer {
     display: flex;
     flex-direction: column;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
     gap: 15px;
 }
@@ -463,6 +463,14 @@ footer {
     .activites-cards-group .card-content {
         height: 70px;
     }
+}
+
+@media (max-width: 1223px) {
+
+    .card-title {
+        font-size: 0.85vw;
+    }
+    
 }
 
 /* Small devices (phones, less than 768px) */
@@ -636,7 +644,6 @@ header {
 }
 
 .activites-cards-group {
-    justify-content: baseline;
     flex-direction: column;
     gap: 15px;
 }
